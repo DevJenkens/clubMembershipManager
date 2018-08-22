@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+table, th, td {
+   border: 1px solid black;
+}
+
+tr:nth-child(even) {
+	background: #339933
+}
+
+tr:nth-child(odd) {
+	background: #4CAF50
+}
+
+tr:nth-child(even) button {
+	background: #339933
+}
+
+tr:nth-child(odd) button {
+	background: #4CAF50
+}
+
+body {
+    margin: auto;
+    width: 90%;
+    border: 3px solid green;
+    padding: 10px;
+	background-color: #BFDCC3;
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+}
+
+th {
+	height: 50px;
+
+  font-size:16px;
+}
+
+h1 {
+	text-align:center;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+th > button, body > button {
+	background-color: #009933;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button {
+    border: double;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 4px;
+}
+
+input {
+    border: 2px solid #009933;
+    border-radius: 4px;
+}

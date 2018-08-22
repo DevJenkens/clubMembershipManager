@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Club Membership</title>
+    <link rel="icon" href="profile.png">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <h1>Club Membership Manager 2016</h1>
+    <hr />
+
+    <div>
+        <form>
+            First name:<br>
+            <input type="text" id="firstname"><br>
+            Last name:<br>
+            <input type="text" id="lastname"><br>
+            Amount Paid:<br>
+            <input type="text" id="amountpaid"><br>
+        </form>
+    </div>
+    <br />
+
+    <button id="addToArray">Add to array</button>
+    <button id="addToTable">Add to table</button><br />
+    <hr />
+
+    <table id="myTable">
+        <tr>
+            <th><button id="sortByFirstName">First Name</button></th>
+            <th><button id="sortByLastName">Last Name</button></th>
+            <th><button id="sortByPaid">Amount Paid</button></th>
+            <th><button id="deleteTable">Delete Table</button></th>
+        </tr>
+    </table>
+
+    <hr />
+
+    <div style="position:fixed;top:0%;right:0%;width:450px;background-color:white;padding-left:7px;border-left: 6px solid green;background-color: lightgreen;">
+        <p>
+            This is a small website I developed as a web development project. Its function is to store and sort membership information necessary for a club.<br />
+            I used HTML, CSS and Javascript to create this site. 
+        </p>
+    </div>
+</body>
+</html>

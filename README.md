@@ -1,1 +1,1 @@
-# clubMembershipManager
+# club-membership-manager
